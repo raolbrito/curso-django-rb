@@ -13,6 +13,7 @@ gunicorn = "*"
 pytest-django = "*"
 pytest-cov = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.8"
