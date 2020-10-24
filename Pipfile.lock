@@ -44,6 +44,7 @@
                 "sha256:cd5d2fceef451ee28b149a0c7de848710daab52d8273330e092ccc316d42b2c7"
             ],
             "version": "==1.19.4"
+
         },
         "collectfast": {
             "hashes": [
