@@ -241,7 +241,6 @@
             ],
             "index": "pypi",
             "version": "==4.1.0"
-            
         },
         "python-dateutil": {
             "hashes": [
