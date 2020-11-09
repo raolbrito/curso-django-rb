@@ -1,1 +1,67 @@
 {% extends 'base/base.html' %}
+{% load static %}
+
+<title>{% block title %}Python Pro - Home{% endblock title %}</title>
+
+{% block body %}
+    <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+
+			<div class="jumbotron">
+				<h2>
+					Curso de Python RaolBrito, Python Pro!
+				</h2>
+                <h4 class="mt-2"> Entre na fila de espera</h4>
+
+<form action="https://raolpython.us2.list-manage.com/subscribe/post?u=a2048027246c2b08a53ddfa5c&amp;id=3ee23ad24f"
+      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+      class="form-row align-items-center" target="_blank" novalidate>
+  <div class="form-row align-items-center">
+
+    <div>
+      <label class="sr-only" for="mce-EMAIL">Email</label>
+        <label for="mce-EMAIL"></label>
+        <input type="email" value="" name="EMAIL" class="form-control required" id="mce-EMAIL" placeholder="exemplo@email.com">
+    </div>
+      <div class="mt-4">
+         <label class="sr-only" for="mce-FNAME">Email</label>
+         <input  type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Seu Nome">
+        </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><label>
+        <input class="mt-2" type="text" name="b_a2048027246c2b08a53ddfa5c_3ee23ad24f" tabindex="-1" value="">
+    </label></div>
+      <div class="mt-4 ml-2">
+        <input type="submit" value="Salvar" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+    </div>
+  </div>
+</form>
+
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<h5 class="card-header">
+							Mais detalhes sobre o estudante
+						</h5>
+						<div class="card-body">
+							<p class="card-text">
+								<img src="{% static 'img/rb.png' %}" alt="foto de Rafael Brito"
+                                     class="img-thumbnail float-left mr-3"/>
+                                Rafael Brito é estudante de Data Science e Desenvolvimento Backend
+                                 <a href="https://www.python.pro.br/" target="_blank" > Pyhton Pro Br</a>
+                                com base na linguagem Python e Framework Django, atualmente trabalha
+                                como Projetista de Tubulações industriais mas espera em breve conseguir
+                                migrar para a area de desenvolvimento, atualmente cursa Python Pro Br
+                                onde tem descoberto novas ferramentas e funções nesse imenso mundo da programação.
+
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}

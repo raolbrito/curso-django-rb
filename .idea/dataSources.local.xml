@@ -14,5 +14,20 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="PostgreSQL - postgres@localhost" uuid="64fbd6cf-5c5b-4b07-a149-5b47d3e164f7">
+      <database-info product="PostgreSQL" version="13.0 (Debian 13.0-1.pgdg100+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="13.0" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>pythonpro</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" negative="1">
+            <node kind="schema" negative="1" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>
